@@ -1,0 +1,26 @@
+
+.projetos{
+    padding: 6rem 2rem;
+}
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    max-width: 1200px;;
+
+
+    
+}
+.projetos-card{
+
+}
+.projetos-titulos {
+    font-size: 2;
+}
+.projetos-imagem {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.info-projetos {
+}
