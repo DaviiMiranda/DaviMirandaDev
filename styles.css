@@ -89,6 +89,9 @@ h1 {
     font-weight: bold;
     margin: 10px;
 }
+p {
+    padding: 10px;
+}
 
 .cabecalho-sub-titulo {
     font-size: 1.5rem; /* Diminuído de 2rem para 1.5rem */
