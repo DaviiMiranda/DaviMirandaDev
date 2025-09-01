@@ -24,14 +24,14 @@
     </nav>
     </li>
 
-    <main id="inicio" class="cabecalho">
+    <header id="inicio" class="cabecalho">
 
         <img src="./img/WhatsApp Image 2025-07-04 at 11.27.22 PM.jpeg" alt="Foto" class="FotoPerfil">
         <h1 class="cabecalho-sub-titulo">Davi Miranda</h1>
         <p class="cabecalho-sub-titulo">Desenvolvedor back-end</p>
 
+    </header>
 
-    </main>
     <section id="sobre" class="sobre">
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
@@ -73,7 +73,7 @@
                     visualização de dados e gerenciamento de solicitações de alteração de ponto,
                     promovendo uma gestão eficiente e transparente para administradores.
                 </p>
-                <button class="botao-ver-mais" onclick="verMais()">ver mais</button>
+                <button class="botao-ver-mais" onclick="verMais1()">ver mais</button>
             </div>
 
             <div class="projetos-card">
@@ -84,35 +84,33 @@
                     controle de reservas, check-in/check-out e atualização automática do status dos quartos.
                     O sistema foi desenvolvido com foco na organização e na eficiência da rotina hoteleira,
                     integrando banco de dados mySQL via API organizada com suas devidas rotas e manipulação SQL .</p>
-                <button class="botao-ver-mais" onclick="verMais()">ver mais</button>
+                <button class="botao-ver-mais" onclick="verMais2()">ver mais</button>
             </div>
 
-            <div class="projetos-card">
-                <img src="./img/WhatsApp Image 2025-07-21 at 7.58.23 PM.jpeg" alt="projeto3" class="projetos-imagem">
-                <h3 class="projetos-titulos">Projeto Loja Virtual</h3>
-                <p class="paragrafo-projetos">O projeto reforça minha experiência com consumo de dados em tempo real,
-                     organização de front-end escalável, manipulação de dados via Firebase e boas práticas de estrutura semântica em HTML e CSS.
-
-               Com foco maior no back-end organizei no banco os produtos, e com cadastro de clientes via JWT.</p>
-                <button class="botao-ver-mais" onclick="verMais()">ver mais</button>
-            </div>
+           
 
            
         </div>
     </section>
 
     <section id="contato" class="contato">
-        <h2 class="contatos-titulo">Contato</h2>
-        <p>Telefone: (85) 99211-0323</p>
-        <p>E-mail: davimiranda210@gmail.com</p>
-        <a href="./img/Curriculo v4.3.pdf" target="_blank" rel="noopener noreferrer">Clique aqui para ver meu Currículo Atualizado</a>
+        <div>
+            <h2 class="contatos-titulo">Contato</h2>
+            <p>Telefone: (85) 99211-0323</p>
+            <p>E-mail: davimiranda210@gmail.com</p>
+            <a href="./img/Curriculo v4.6.pdf" target="_blank" rel="noopener noreferrer">Clique aqui para ver meu Currículo Atualizado</a>
+        
+        </div>
         
     </section>
 
     <script>
         
-        function verMais() {
-            window.open('https://github.com/DaviiMiranda', '_blank');
+        function verMais1() {
+            window.open('https://github.com/DaviiMiranda/Aplicativo_estagiarios', '_blank');
+        }
+        function verMais2() {
+            window.open('https://github.com/DaviiMiranda/Hotelaria_Oficial/tree/main', '_blank');
         }
         function enviarWhats(event) {
             event.preventDefault()
